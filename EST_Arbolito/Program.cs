@@ -24,6 +24,11 @@ void menu()
         while (!int.TryParse(Console.ReadLine(), out op))
         {
             Console.Write("Entrada inválida. Intente nuevamente: ");
+            if (op > 7)
+            {
+                op = op % 7;
+            }
+
         }
 
         switch (op)
@@ -32,5 +37,12 @@ void menu()
         }
     }
     while (op == 0);
+}
+
+void insertar()
+{
+    Console.Write("ingrese el valor a insertar:");
+    string nodo = Console.ReadLine();
+
 }
 
