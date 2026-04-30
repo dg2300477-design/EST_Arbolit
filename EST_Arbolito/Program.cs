@@ -1,5 +1,7 @@
 using System;
-
+// David Gutierrez 55225033
+// Juan Jose Salazar 55225007
+// Nicolas Hernandez 55225038
 namespace EST_Arbolito
 {
     /// <summary>
